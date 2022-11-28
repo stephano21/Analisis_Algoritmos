@@ -1,0 +1,5 @@
+print("Area de un triangulo")
+a = int(input("Ingrese el valor de A: "))
+b = int(input("Ingrese el valor de B: "))
+c = int(input("Ingrese el valor de C: "))
+print(f"El perimetro del triangulo es {a+b+c}")
