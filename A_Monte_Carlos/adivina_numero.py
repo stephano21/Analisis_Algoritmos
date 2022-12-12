@@ -15,4 +15,4 @@ while True:
         num=numero()
     else:
         print("Gano")
-        exit()
+        break
