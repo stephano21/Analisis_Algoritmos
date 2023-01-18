@@ -8,9 +8,13 @@ scaleFactor=1.1,
 minNeighbors=5,
 minSize=(30,30),
 maxSize=(200,200))
+c=0
 for (x,y,w,h) in faces:
     cv2.rectangle(image,(x,y),(x+w,y+h),(0,255,0),3)
+    c+=1
+print('numero de caras:',c)
 cv2.imshow("image",image)
+
 
 if cv2.waitKey(0) & 0xFF==ord('q'):
     cv2.destroyAllWindows()
